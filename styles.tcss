@@ -1,0 +1,85 @@
+.container_url{
+    width: 44;
+}
+
+.output_box{
+    background: $boost;
+    height: 25;
+    margin: 0 5;
+    min-width: 10;
+    padding: 1;
+    width: 150;
+}
+
+.label{
+    margin: 0 1 0 39;
+    color: purple;    
+}
+
+Button {
+    margin: 1 5;
+    width: 10;
+}
+
+#url{
+    margin: 0 5;
+    width: 100%;
+}
+
+#btn_exit{
+    height: 3;
+}
+
+.container_top_panel{
+    height: 3;
+    margin: 4 12 0 20;
+}
+
+.container_main{
+    margin: 0 12 0 10;
+    width: 100%;
+}
+
+#btn_exit,
+#btn_copy,
+#btn_clear,
+#btn_go{
+    width: 100%;
+}
+
+
+
+# #start {
+#     dock: left;
+# }
+
+# #stop {
+#     dock: left;
+#     display: none;
+# }
+
+# #reset {
+#     dock: right;
+# }
+
+# .started {
+#     text-style: bold;
+#     background: $success;
+#     color: $text;
+# }
+
+# .started TimeDisplay {
+#     text-opacity: 100%;
+# }
+
+# .started #start {
+#     display: none
+# }
+
+# .started #stop {
+#     display: block
+# }
+
+# .started #reset {
+#     visibility: hidden
+# }
